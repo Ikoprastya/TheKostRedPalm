@@ -1,0 +1,813 @@
+*{
+  font-family: "Poppins", cursive;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 5000px){
+  .bgImage {
+    min-height: 30vh !important;
+    
+  
+  }
+
+  .sliderImage {
+    height: 300px !important;
+  }
+
+  .slide1 {
+    object-position: center !important;
+  }
+  
+  .slide2 {
+    object-position: center !important;
+  } 
+  
+  .slide4 {
+    object-position: center !important;
+  
+  }
+  
+  .slide7 {
+    object-position: center !important;
+  
+  }
+  
+  .slide8 {
+    object-position: center !important;
+  }
+  
+  .slide9 {
+    object-position: center !important;
+  }
+  
+
+  .bgWhite {
+    min-height: 25vh !important;
+  }
+
+  .bgWhite h1 {
+    font-size: 34px !important;
+  }
+
+  .content {
+    padding-top: 8em !important;
+   
+  
+  }
+
+  .content h1 {
+    font-size: 28px !important;
+    letter-spacing: 4px !important;
+  
+  }
+
+  .content-2 p {
+    font-size: 17px !important;
+    padding-right: 0 !important;
+    text-align: justify;
+  }
+  
+  .content-2 .row {
+    margin: 7em 3em 3em 3em !important;
+  }
+
+  
+  .icon-order {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-order img {
+    width: 18em !important;
+    height: 18em !important;
+  } 
+
+
+  
+  .vidLoc h1 {
+    height: 200px !important;
+    font-size: 28px !important;
+    letter-spacing: 3px !important;
+  }
+
+  .vidLocContent .youtube {
+     margin-bottom: 1em;
+    
+   }
+   
+   .vidLocContent .lokasi {
+     margin-top: 1em;
+   }
+
+  .vidLocContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+  
+  }
+  
+  .vidLoc {
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+  }
+  
+  
+  .vidLocContent iframe {
+    width: 36em !important;
+    height: 20em !important ;
+  } 
+  
+  .contact h1 {
+    font-size:20px !important;
+    padding: 1em 4em 1em 4em !important;
+    margin: 3em 0 3em 0 !important;
+    letter-spacing: 3px !important;
+
+  }
+
+  .conFac {
+    padding: 3em !important;
+    --bs-gutter-x: 0 !important;
+  }
+  
+  
+  .card-img-top {
+    height: 200px !important;
+  
+  }
+  
+  .card-title {
+    font-size: 20px !important;
+  }
+  
+  .card-text span {
+    font-size: 18px !important;
+  }
+  
+  .card-location {
+    padding-top: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .card-text svg {
+    width: 21px !important;
+    height: 25px !important;
+  }
+  
+  .card-location span {
+    font-size: 14px !important;
+    letter-spacing: -0.7px !important;
+    padding-left: 10px !important;
+  }
+
+  .card-location svg {
+    width: 64px !important;
+    height: 60px !important;
+  }
+
+  .latas {
+    margin-bottom: 2rem;
+  }
+
+  .lbawah {
+    margin-top: 2rem;
+  }
+  
+  
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px){
+  .bgImage {
+    min-height: 40vh !important;
+    
+  
+  }
+
+  .bgWhite {
+    min-height: 25vh !important;
+  }
+
+  .bgWhite h1 {
+    font-size: 34px !important;
+  }
+
+  .sliderImage {
+    height: 500px !important;
+  }
+
+  .slide1 {
+    object-position: center !important;
+  }
+  
+  .slide2 {
+    object-position: center !important;
+  } 
+  
+  .slide4 {
+    object-position: center !important;
+  
+  }
+  
+  .slide7 {
+    object-position: center !important;
+  
+  }
+  
+  .slide8 {
+    object-position: center !important;
+  }
+  
+  .slide9 {
+    object-position: center !important;
+  }
+      
+
+
+
+  .content {
+    padding-top: 10em !important;
+   
+  
+  }
+
+  .content h1 {
+    font-size: 20 !important;
+    letter-spacing: 7px !important;
+  
+  }
+
+  .content-2 .col-md-7 {
+    width: auto  !important;
+  }
+
+  .content-2 p {
+    font-size: 20px !important;
+    padding-right: 0 !important;
+    text-align: justify;
+  }
+  
+  .content-2 .row {
+    margin: 10em 6em 3em 6em !important;
+    flex-direction: column !important;
+
+  }
+
+  
+  .icon-order {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-order img {
+    width: 20em !important;
+    height: 20em !important;
+  } 
+
+
+  .vidLoc h1 {
+    height: 200px !important;
+    font-size: 28px !important;
+    letter-spacing: 3px !important;
+  }
+
+  .vidLocContent .youtube {
+     margin-bottom: 1em;
+    
+   }
+   
+   .vidLocContent .lokasi {
+     margin-top: 1em;
+   }
+
+  .vidLocContent {
+    justify-content: center !important;
+   
+  
+  }
+  
+  .vidLoc {
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+  }
+  
+  
+  .vidLocContent iframe {
+    width: 36em !important;
+    height: 20em !important ;
+  } 
+  
+  .contact h1 {
+    font-size:20px !important;
+    padding: 1em 4em 1em 4em !important;
+    margin: 3em 0 3em 0 !important;
+    letter-spacing: 3px !important;
+
+  }
+
+  .conFac {
+    padding: 3em !important;
+  }
+  
+  
+  .card-img-top {
+    height: 200px !important;
+  
+  }
+  
+  .card-title {
+    font-size: 20px !important;
+  }
+  
+  .card-text span {
+    font-size: 18px !important;
+  }
+  
+  .card-location {
+    padding-top: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .cardLocAtas {
+    padding-top: 2.5rem !important;
+  } 
+  
+  .card-text svg {
+    width: 21px !important;
+    height: 25px !important;
+  }
+  
+  .card-location span {
+    font-size: 14px !important;
+    letter-spacing: -0.7px !important;
+    padding-left: 10px !important;
+  }
+
+  .card-location svg {
+    width: 64px !important;
+    height: 60px !important;
+  }
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .bgImage {
+    min-height: 50vh !important;
+    
+  
+  }
+
+  .sliderImage {
+    height: 500px !important;
+  }
+
+  .slide1 {
+    object-position: center !;
+  }
+  
+  .slide2 {
+    object-position: center !;
+  } 
+  
+  .slide4 {
+    object-position: center !;
+  
+  }
+  
+  .slide7 {
+    object-position: center !;
+  
+  }
+  
+  .slide8 {
+    object-position: center !;
+  }
+  
+  .slide9 {
+    object-position: center !;
+  }
+  
+
+  .bgWhite {
+    min-height: 35vh !important;
+  }
+
+  .content {
+    padding-top: 19em !important;
+   
+  
+  }
+
+  .content h1 {
+    font-size: 38px !important;
+    letter-spacing: 9px !important;
+  
+  }
+
+  .content-2 p {
+    font-size: 18px !important;
+    padding-right: 1em !important;
+  }
+  
+  .content-2 .row {
+    margin: 10em 13em 2em 8em !important;
+  }
+
+  .icon-order img {
+    width: 18em !important;
+    height: 18em !important;
+    
+  } 
+
+  .conFac {
+    padding: 6em !important;
+  }
+
+  .vidLoc h1 {
+    height: 300px !important;
+    font-size: 38px !important;
+    letter-spacing: 3px !important;
+  }
+
+  .vidLocContent .youtube {
+     margin-bottom: 1em;
+    
+   }
+   
+   .vidLocContent .lokasi {
+     margin-top: 1em;
+   }
+
+  .vidLocContent {
+    justify-content: center  !important;
+   
+  
+  }
+  
+  .vidLoc {
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+  }
+  
+  
+  .vidLocContent iframe {
+    width: 46em !important;
+    height: 30em !important ;
+  } 
+
+ 
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+  .content-2 .row {
+    margin: 10em 9em 4em 8em !important;
+  }
+
+  .sliderImage {
+    height: 600px !important;
+  }
+
+  .vidLocContent {
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 2em;
+  }
+
+  .vidLocContent iframe {
+    width: 28em !important;
+    height: 20em !important ;
+  } 
+
+  .lokasi {
+    margin-left: 3em !important;
+  }
+
+  .youtube {
+    margin-left: 1em !important;
+  }
+
+  .content h1 {
+    font-size: 42px !important;
+    letter-spacing: 9px !important;
+  
+  }
+
+  .content {
+    padding-top: 20em !important;
+   
+  
+  }
+
+
+
+
+}
+
+
+
+.bgImage {
+  background: url(./images/headerImage.jpg), lightgray 50% / contain no-repeat;
+  width: 100%;
+  height: auto;
+  min-height: 55vh;
+  background-size: cover;
+  filter: blur(5px);
+  position: absolute;
+  z-index: -1;
+  
+
+}
+
+.content {
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  padding-top: 17em;
+ 
+
+}
+
+.content h1 {
+  font-size: 40px;
+  font-family: "Poppins", cursive;
+  font-weight: 800;
+  letter-spacing: 11px;
+
+}
+
+.content-2 {
+  width: auto;
+}
+
+.content-2 p {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 2em;
+}
+
+.content-2 .row {
+  justify-content: space-between;
+  align-items: center;
+  margin: 10em 8em 8em 8em;;
+}
+
+.icon-order img {
+  width: 20em;
+  height: 20em;
+  scroll-behavior: smooth;
+  
+} 
+
+/* Fasilitas */
+
+.bgWhite {
+  width: 100%;
+  height: auto;
+  min-height: 40vh;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.bgWhite h1{
+  color: #000;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 800;
+  letter-spacing: 8px;
+}
+
+.conFac {
+  width: 100%;
+  padding: 6em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.card {
+  width: 30em;
+  height: auto;
+  fill: #F2F2F2;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  filter: drop-shadow(1px 6px 15px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.card-img-top {
+  width: 100%;
+  height: 15em;
+  background: lightgray 50% / contain no-repeat;
+  object-fit: cover;
+
+}
+
+.card-title {
+  color: #000;  
+  font-family: "Poppins", cursive;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.card-text svg {
+  width: 1.8em;
+  height: 1.8em;
+}
+
+
+.card-text span {
+  padding-left: 10px;
+  font-family: "Poppins", cursive;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.card-location {
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.card-location svg{
+  width: 5.5em;
+  height: 5.5em;
+}
+
+.card-location span {
+  color: #000;
+  text-align: justify;
+  font-family: "Poppins", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  padding-left: 1rem;
+}
+
+.latas, .lbawah {
+  display: flex;
+  justify-content: center;
+
+}
+
+.cardLocAtas {
+  padding-top: 3em;
+}
+
+
+/* slider */
+
+.slider {
+  background-color: white;
+  width: 100%;
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.79);
+}
+
+.sliderImage {
+  width: 100%;
+  height: 700px;
+  background-color:lightgray -18.608px -819.282px / 101.292% 232.889%;
+  object-fit: cover;
+
+}
+
+
+.slide1 {
+  object-position: bottom -42em right 0px;
+}
+
+.slide2 {
+  object-position: bottom -28em right 0px;
+} 
+
+.slide4 {
+  object-position: bottom -28em right 0px;
+
+}
+
+.slide7 {
+  object-position: top -18em right 0px;
+
+}
+
+.slide8 {
+  object-position: bottom -30em right 0px;
+}
+
+.slide9 {
+  object-position: bottom -46em right 0px;
+}
+
+
+
+.vidLoc h1 {
+  width: 100%;
+  height: 260px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 7.28px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h1 {
+  color: #E8E8E8;
+  text-shadow: 0px 4px 18.3px rgba(0, 0, 0, 0.50);
+  font-size:22px;
+  font-weight: 800;
+  letter-spacing: 5.36px;
+  border-radius: 48px;
+  background: rgba(10, 170, 7, 0.61);
+  padding: 1.2rem 8rem;
+  margin: 6rem;
+  
+  
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.vidLocContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+}
+
+.vidLoc {
+  margin-left: 4em ;
+  margin-right: 4em ;
+}
+
+
+
+
+
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+
+  }
+}
+
+.animationLeft {
+  animation: slideInLeft 1s ease-in;
+  /* animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none; */
+
+  /* transform: translateX(-150px); */
+}
+
+@keyframes upDown {
+  from {
+    transform: translateY(10px);
+  }
+
+  to {
+    transform: translateY(-10px);
+
+  }
+}
+
+.icon-order img {
+  animation: upDown 2s ease-in-out infinite alternate-reverse both;
+
+
+}
+
